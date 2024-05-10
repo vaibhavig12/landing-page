@@ -1,0 +1,49 @@
+/* Custom color theme */
+:root {
+    --primary-color: #ffcf30; /* Blue */
+    --secondary-color: #6c757d; /* Grey */
+    --success-color: #28a745; /* Green */
+    --info-color: #17a2b8; /* Cyan */
+    --warning-color: #ffc107; /* Yellow */
+    --danger-color: #dc3545; /* Red */
+    --light-color: #f8f9fa; /* Light grey */
+    --dark-color: #343a40; /* Dark grey */
+}
+
+/* Override Bootstrap colors */
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background-color: var(--primary-color);
+}
+
+.nav-pills .nav-link {
+    color: var(--dark-color);
+}
+
+.nav-pills .nav-link:hover {
+    color: var(--primary-color);
+}/* Custom color theme */
+        :root {
+            --primary-color: #04305f; /* Blue */
+            --secondary-color: #6c757d; /* Grey */
+            --success-color: #28a745; /* Green */
+            --info-color: #17a2b8; /* Cyan */
+            --warning-color: #ffc107; /* Yellow */
+            --danger-color: #dc3545; /* Red */
+            --light-color: #f8f9fa; /* Light grey */
+            --dark-color: #343a40; /* Dark grey */
+        }
+
+        /* Override Bootstrap colors */
+        .nav-pills .nav-link.active,
+        .nav-pills .show>.nav-link {
+            background-color: var(--primary-color);
+        }
+
+        .nav-pills .nav-link {
+            color: var(--dark-color);
+        }
+
+        .nav-pills .nav-link:hover {
+            color: var(--primary-color);
+        }
