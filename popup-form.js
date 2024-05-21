@@ -32,6 +32,6 @@ function submitForm() {
     var form = document.getElementById("popupEnquiryForm");
     var formData = new FormData(form);
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://script.google.com/macros/s/AKfycbyaK_ZsQICnMX7Vmc8SPE2KXTkC1e_jeSfPLWKF13ktTlW8X6ZqhxPPdMzT33UTWPc5/exec");
+    xhr.open("POST", "https://script.google.com/macros/s/AKfycbwI-GCxtMSaB17-tbsLhPFLv1xRcDnF2aCkyQvlQe5r3FOxe9_DR4t0QvdfiwqK2Wzd/exec");
     xhr.send(formData);
     alert("Form submitted successfully!");}
