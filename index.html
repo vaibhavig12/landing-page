@@ -29,7 +29,7 @@
   <!-- banner -->
   <div class="container-fluid " id="navbar-banner">
     <nav class="navbar  navbar-expand-lg bg-body-tertiary ">
-      <div class="container-fluid d-flex align-items-center">
+      <div class="container-fluid " >
 
         <a class="navbar-brand " href="#enquiryForm">
           <img src="./assets/img/Logo.png" alt="logo" height="60px" width="60px">
@@ -42,19 +42,19 @@
         </button>
 
         <div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-          <div class="offcanvas-header   d-flex justify-content-between align-items-center p-0 m-0">
+          <div class="offcanvas-header  p-0 m-0">
             <div class="d-block d-sm-none">
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
           </div>
 
           <div class="offcanvas-body">
-            <a class="navbar-brand mx-0 d-flex justify-content-center mx-auto" href="#" style="font-weight: bold;">
+            <a class="navbar-brand mx-0 d-flex  mx-auto" href="#" style="font-weight: bold;">
               <span style="font-size: 24px;" class="d-inline d-sm-none">Pandey Sand Suppliers</span>
-              <span style="font-size: 40px;" class="d-none d-sm-inline">Pandey Sand Suppliers</span>
+              <span style="font-size: 40px;" class="d-none d-sm-inline ">Pandey Sand Suppliers</span>
             </a>
-
-            <ul class="navbar-nav  ms-auto  pe-3 ">
+          
+            <ul class="navbar-nav  ms-auto  pe-3 text-center ">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">Home</a>
               </li>
@@ -72,28 +72,31 @@
               </li>
 
             </ul>
-
+            
           </div>
         </div>
       </div>
     </nav>
+  </div>
     <div class="container-fluid" style="position: relative; text-align: center;color: rgb(255, 255, 255);">
       <img class="img-fluid w-100" src="./assets/img/img-1.jpg" alt="" style="height: 450px">
-      <div class="centered" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%,-50%);color: black;padding: 10px 20px;
+      <div class="centered" style=" position: absolute; top: 50%; left: 50%;transform: translate(-50%,-50%);color: black;padding: 10px 20px;
       border-radius: 5px;   background-color: rgba(255, 255, 255, 0.7);">
         <h1
           class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation animated fadeInUpShorter appear-animation-visible"
           data-appear-animation="fadeInUpShorter" style="white-space: nowrap; animation-delay: 100ms; ">
           <span>We are renowned for our</span>
-          <span class="word-rotator-words fst-italic" style="width: 253.267px;  ">
-            <b class="is-visible">superior quality</b>
-            <b class="is-hidden">highly affordable</b>
-            <b class="is-hidden">easily accessible</b>
+          
+          <span class="word-rotator-words fst-italic" style="width: 253.267px; ">
+            <b class="is-visible">premium products.</b>
+            <b class="is-hidden">affordable prices.</b>
+            <b class="is-hidden">reliable services.</b>
           </span>
-          <span class="product-text"> products.</span>
+        </div>
+          
         </h1>
       </div>
-    </div>
+    
 
     <!-- banner -->
     <!-- brands -->
@@ -423,6 +426,41 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/img/Paint_Brands.png" class="bd-placeholder-img card-img-top" width="100%"
+                  height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                  focusable="false" />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                    <p class="mb-0">Paints</p>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Enquire Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="./assets/img/Tiles_Cleaner.jpg" class="bd-placeholder-img card-img-top" width="100%"
+                  height="225" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice"
+                  focusable="false" />
+                <div class="card-body d-flex flex-column align-items-center">
+                  <div class="d-flex justify-content-between align-items-center w-100">
+                    <p class="mb-0">Tile Cleaners</p>
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">
+                        Enquire Now
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -432,28 +470,28 @@
       <h2>Enquiry Form</h2>
       <form id="popupEnquiryForm" method="post">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12">
             <div class="mb-3">
               <label for="popupFullName" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="popupFullName" name="FullName" placeholder="Enter your full name">
+              <input type="text" class="form-control" id="PopupFullName" name="FullName" placeholder="Enter your full name">
             </div>
             <div class="mb-3">
               <label for="popupEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="popupEmail" name="Email" placeholder="Enter your email" required>
+              <input type="email" class="form-control" id="PopupEmail" name="Email" placeholder="Enter your email" required>
             </div>
             <div class="mb-3">
               <label for="popupMobileNumber" class="form-label">Mobile Number</label>
-              <input type="tel" class="form-control" id="popupMobileNumber" name="MobileNumber" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10">
+              <input type="tel" class="form-control" id="PopupMobileNumber" name="MobileNumber" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10">
             </div>
           </div>
-          <div class="col-md-6">
+         
             <div class="mb-3">
               <label for="popupMessage" class="form-label">Message</label>
-              <textarea id="popupMessage" rows="6" name="Message" class="form-control" placeholder="Enter your message"></textarea>
+              <textarea id="Popupmessage" rows="8" name="Message" class="form-control" placeholder="Enter your message"></textarea>
             </div>
-          </div>
+          
         </div>
-        <button type="submit" class="btn btn-warning col-md-12" onclick="submitForm()">Submit</button>
+        <button type="button" id="submitButton" class="btn btn-warning col-md-12" onclick="popUpSubmitForm()">Submit</button>
       </form>
     </div>
     
@@ -462,20 +500,23 @@
     <div class="container text-center" style="height: 100%" id="contactUs">
       <div class="row" style="padding: 0">
         <h2 style="margin: 0px; padding: 0px; font-size: 60px; ">Contact Us</h2>
+        
         <div class="col-lg-6" style="
             display: flex;
             justify-content: center;
             align-items: center;
             overflow: hidden;
-            height: 500px;
+            height: auto;
             padding-top: 0px;
+            
           ">
           <div id="googlemap" style="
               height: 100%;
-              padding: 20px;
+              padding: 0px;
               margin-top: 20px;
               margin-bottom: 0px;
               width: 100vw;
+              overflow: hidden;
               ">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15074.033053095722!2d72.8550656!3d19.1729905!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7aa59b9922b%3A0xfe4a26a10f30d796!2sPandey%20Sand%20Suppliers!5e0!3m2!1sen!2sin!4v1715679568066!5m2!1sen!2sin"
@@ -483,68 +524,74 @@
           </div>
         </div>
 
-        <div class="col-lg-6" style="padding: 20px; margin-top: 0px">
+        <div class="col-lg-6" style="padding: 10px; margin-top: 0px">
           <div class="row" style="margin: 0; padding: 0; height: 450px; overflow: auto">
             <div class="row" style="margin-top: 0; padding: 0">
               <div class="col">
                 <h4 style="color: rgb(29, 29, 29)">
                   <i class="bi bi-pin-map"></i> Our Office Address
                 </h4>
-                <p style="color: rgb(29, 29, 29)">
-                  Koyna Vasahat, Dindoshipada, Goregaon East Mumbai : 400063,
-                  Mumbai, Maharashtra 400063
-                </p>
+                <p style="color: rgb(29, 29, 29); margin: 0px; padding: 0px; ">
+                  Koyna Vasahat, Dindoshipada, Goregaon East, Mumbai: 400063, Maharashtra.</p>
               </div>
             </div>
-            <div class="row" style="display: flex; justify-content: center; width: 100%">
-              <div class="col">
-                <h4 style="color: rgb(29, 29, 29)">
-                  <i class="bi bi-telephone"></i> Call Us
-                </h4>
-              </div>
-              <div class="col">
-                <a href="tel:+919967790225" style="text-decoration: none; color: rgb(29, 29, 29);">
-                  <p style="color: inherit;">+919967790225</p>
-                </a>
-              </div>
-            </div>
-            <div class="col" style="margin-top: 0" id="enquiryForm">
-              <button type="button" class="btn btn-warning col-md-12" style="font-weight: 500; width: 100%">
-                Enquire Here
-              </button>
-
-              <form id="popupEnquiryForm" method="post"  style="margin: 0; padding: 0;">
-                <div class="row">
-                    <div class="col-md-6" style="margin-bottom: 15px;">
-                        <label for="FullName" class="form-label" style="color: rgb(29, 29, 29);">Full Name</label>
-                        <input type="text" class="form-control" id="FullName" name="FullName" placeholder="Enter your full name" style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255);" />
-            
-                        <label for="exampleInputEmail1" class="form-label" style="color: rgb(29, 29, 29);">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" name="Email" aria-describedby="emailHelp" placeholder="Enter your email" required style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255); margin-bottom: 15px;" />
-            
-                        <label for="MobileNumber" class="form-label" style="color: rgb(29, 29, 29);">Mobile Number</label>
-                        <input type="tel" class="form-control" id="MobileNumber" name="MobileNumber" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10">
-                    </div>
-                    <div class="col-md-6">
-                        <label for="message" class="form-label" style="color: rgb(29, 29, 29);">Message</label>
-                        <textarea id="message" name="Message" rows="6" class="form-control" style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255); margin-bottom: 15px;"></textarea>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-warning" style="font-weight: 500; width: 100%;">Submit</button>
-                    </div>
+              <!-- button -->
+              <div class="col-md-12" >
+                <div class="btn btn-warning col-md-12"style=" width: 100%; display: flex; justify-content: space-around;">
+                  <div style="font-weight: bold;"><i class="bi bi-telephone"></i>Call Us</div>
+                  
+                  <a href="tel:+919967790225" style="text-decoration: none; color: inherit;"><u>
+                    +919967790225</u>
+                  </a>
                 </div>
-            </form>
+              </div>
+              
+            
+
+            <div class="col" style="margin: 0;" id="enquiryForm" style="overflow: hidden;">
+              
+
+              <form id="popupEnquiryForm" method="post" style="margin: 0; padding: 0;">
+                <div class="row">
+                  <div class="col-md-6" >
+                    <div class="mb-3" style="padding: 0px; margin: 0px;">
+                      <label for="popupFullName" class="form-label" style="color: rgb(29, 29, 29);">Full Name</label>
+                      <input type="text" class="form-control" id="FullName" name="FullName" placeholder="Enter your full name" style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255);">
+                    </div>
+                    <div class="mb-3" style="padding: 0px; margin: 0px;">
+                      <label for="popupEmail" class="form-label" style="color: rgb(29, 29, 29);">Email address</label>
+                      <input type="email" class="form-control" id="Email" name="Email" placeholder="Enter your email" required style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255); margin-bottom: 15px;" >
+                    </div>
+                    <div class="mb-3"style="padding: 0px; margin: 0px;">
+                      <label for="popupMobileNumber" class="form-label" style="color: rgb(29, 29, 29);">Mobile Number</label>
+                      <input type="tel" class="form-control" id="MobileNumber" name="MobileNumber" placeholder="Enter your mobile number" pattern="[0-9]{10}" maxlength="10">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="mb-3"style="padding: 0px; margin: 0px;">
+                      <label for="popupMessage" class="form-label" style="color: rgb(29, 29, 29);">Message</label>
+                      <textarea id="message" rows="8" name="Message" class="form-control" placeholder="Enter your message" style="color: rgb(44, 44, 44); border-color: rgb(199, 199, 199); background-color: rgb(255, 255, 255); margin-bottom: 15px;"></textarea>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12" style="padding: 0px; margin: 0px;">
+                <button type="button" class="btn btn-warning col-md-12"style=" width: 100%;" onclick="submitForm()">Submit</button></div>
+              </form>
             
             </div>
           </div>
         </div>
-      </div>
+     
     </div>
+  </div>
     <!-- about Us -->
     <div class="container-fluid" id="aboutUs" style="position: relative; text-align: center;color: rgb(255, 255, 255);">
+      <div style="position: relative;color: rgb(0, 0, 0);"> <h2 style="margin: 0px; padding: 0px; font-size: 60px; ">About Us</h2></div>
       <img class="img-fluid w-100" src="./assets/img/img-1.jpg" alt="" style="height: 450px">
+      
       <div class="centered" style="position: absolute; top: 50%; left: 50%;transform: translate(-50%,-50%);color: black;padding: 10px 20px;
       border-radius: 5px;   background-color: rgba(255, 255, 255, 0.7);">
+      
         <p>Established in <span style="font-size: 1.2rem; font-weight: bold;">1975</span>, Pandey Sand Suppliers is your
           reliable source for quality construction materials. From fine sand to gravel, we provide a diverse range of
           products to meet your project needs. With a commitment to excellence, affordability, and accessibility, we
@@ -579,7 +626,7 @@
       crossorigin="anonymous" referrerpolicy="no-referrer"></script>
       
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
-  
+      
     <script>
 
       $(document).ready(function () {
@@ -588,7 +635,7 @@
           margin: 10,
           autoplay: true,
           autoplayTimeout: 1000,
-          autoplayHoverPause: false,
+          autoplayHoverPause: true,
           responsiveClass: true,
           responsive: {
             0: {
@@ -626,6 +673,7 @@
         setInterval(rotateWords, 2000); // Change words every 2 seconds
       });
     </script>
+   
     <script src="./popup-form.js"></script>
 </body>
 
